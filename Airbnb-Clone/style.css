@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 1500px;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    /* background-color: lightblue; */
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px;
+}
+
+.nav-logo {
+    max-width: 100px;
+}
+
+section {
+    padding: 2% 10%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 800px;
+    align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 1%;
+    font-size: 3vw;
+}
+
+.hero--text {
+    font-size: 1vw;
+}
+
+.card-instances {
+    margin-left: 10vw;
+}
+
+.one-instance {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1vw;
+    position: relative;
+}
+
+.sold-out--logo {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    margin: 3%;
+}
+
+.one-instance > img {
+    /* max-width: 20%; */
+    width: 20vw;
+    border-radius: 3%;
+}
+
+.instance-rate {
+    display: flex;
+    flex-direction: row;
+}
+
+.instance-rate > p {
+    /* display: inline; */
+    align-self: flex-start;
+    margin-right: 0.5vw;
+}
+
+.instance-rate > img {
+    max-width: 100px;
+    height: 20px;
+    align-self: center;
+    margin-right: 1vw;
+}
+
+.card--title ,.card--cost {
+    margin-bottom: 10px;
+}
+
+.card--container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+}
+
+
