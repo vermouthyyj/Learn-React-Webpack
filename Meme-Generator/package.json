@@ -17,7 +17,8 @@
     "webpack": "^2.0"
   },
   "scripts": {
-    "heroku-postbuild": "webpack",
-    "watch": "webpack -w"
+    "heroku-prebuild": "npm install --dev",
+    "start": "webpack -w",
+    "heroku-postbuild": "webpack"
   }
 }
